@@ -1,0 +1,8 @@
+arr = [2,10,4,5,8,87]
+n = len(arr)
+ans = 0
+for i in range(0,n):
+    if ans < arr[i]:
+        ans = arr[i]
+
+print(ans)
